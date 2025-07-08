@@ -1,4 +1,5 @@
-@import "/reset.css";
+@import "./reset.css";
+
 @font-face {
 	font-family: 'Pretendard Variable';
 	font-weight: 45 920;
@@ -22,8 +23,10 @@
     width: 206px;
     height: 160px;
     margin-top: 15px;
+}
+
+.card-img {
     border-radius: 5px;
-    background-image: url(./image.png);
 }
 
 .card-textbox {
