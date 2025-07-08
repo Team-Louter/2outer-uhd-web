@@ -1,4 +1,12 @@
 @import "/reset.css";
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('../../../packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');
+}
+
 
 .post-card {
     width: 237px;
@@ -7,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .card-imgbox {
@@ -73,11 +81,12 @@ main {
 .filter-section {
     width: auto;
     height: 80px;
+    margin-bottom: 20px;
 }
 
 .category-title {
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(60, 113, 205);
     margin-bottom: 5px;
 }
@@ -109,6 +118,7 @@ main {
 
 input {
     font-size: 16px;
+    width: 100%;
     border: 0px;
     border: none;
     outline: none;
@@ -123,11 +133,25 @@ input {
     width: 57px;
     height: 36px;
 }
-input[type='date']::before {
-    content: attr(data-placeholder);
-    width: 100%;
+
+#dateinput {
+    width: 249px;
 }
 
-input[type='date']:valid::before {
-    display: none;
+select {
+    font-size: 16px;
+    width: 100%;
+    border: 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-style: hidden;
+}
+
+p {
+    font-family: "Pretendard Variable";
+}
+
+span {
+    font-family: "Pretendard Variable";
 }
