@@ -1,4 +1,12 @@
 @import "/reset.css";
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('../../../packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');
+}
+
 
 .post-card {
     width: 237px;
@@ -7,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .card-imgbox {
@@ -38,6 +46,7 @@
 .post-title {
     color: rgb(15, 15, 15);
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .lost-info > p {
@@ -50,6 +59,7 @@ main {
     display: flex;
     gap: 42px;
     margin-top: 37px;
+    justify-content: center;
 }
 
 .filter {
@@ -70,12 +80,78 @@ main {
 
 .filter-section {
     width: auto;
-    height: 100px;
-    border: 1px solid black;
+    height: 80px;
+    margin-bottom: 20px;
 }
 
 .category-title {
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(60, 113, 205);
+    margin-bottom: 5px;
+}
+
+.category-description {
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+.filter-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(15, 15, 15);
+}
+
+.inputbutton-frame {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-input {
+    height: 43px;
+    width: 184px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #C0C0C0;;
+}
+
+input {
+    font-size: 16px;
+    width: 100%;
+    border: 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-style: hidden;
+}
+
+.filter-searchbutton {
+    background-color: white;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    width: 57px;
+    height: 36px;
+}
+
+#dateinput {
+    width: 249px;
+}
+
+select {
+    font-size: 16px;
+    width: 100%;
+    border: 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-style: hidden;
+}
+
+p {
+    font-family: "Pretendard Variable";
+}
+
+span {
+    font-family: "Pretendard Variable";
 }
