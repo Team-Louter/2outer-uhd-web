@@ -1,0 +1,81 @@
+@import "/reset.css";
+
+.post-card {
+    width: 237px;
+    height: 271px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-imgbox {
+    width: 206px;
+    height: 160px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-image: url(./image.png);
+}
+
+.card-textbox {
+    width: 206px;
+    height: 42px;
+    display: flex;
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.lost-info {
+    
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.post-title {
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+}
+
+.lost-info > p {
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    gap: 42px;
+    margin-top: 37px;
+}
+
+.filter {
+    width: 303px;
+    height: auto;
+    display: block;
+    border-right: 1px solid #C0C0C0;
+    padding-top: 27px;
+}
+
+.card-container {
+    width: 1002px;
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    gap: 16px 18px;
+}
+
+.filter-section {
+    width: auto;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.category-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(60, 113, 205);
+}
