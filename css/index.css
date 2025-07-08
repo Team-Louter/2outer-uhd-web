@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Esamanru';
-    src: url('./font/esamanru-bold.otf') format('opentype');
+    src: url('../font/esamanru-bold.otf') format('opentype');
     font-weight: bold;
 }
 
