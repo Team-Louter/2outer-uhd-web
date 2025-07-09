@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+.box1{
+    display: flex;
+    width: 100%;
+    min-height: 138px;
+    background-color: #1a1e47;
+    align-items: center; /* 자식 요소들을 세로축(수직) 가운데로 정렬 */
+}
+.box1 h1{
+    margin-left: 46px;
+    color: #FFFFFF;
+}
+.container{
+    margin-top: 67px;
+    margin-left: 293px;
+}
+ .inputbox input{
+    min-width: 450px;
+    min-height: 58px;
+    border-radius: 20px;
+    box-shadow: 0px;
+    background-color: #EFEFEF;
+    border: none; 
+    margin-bottom: 30px;
+
+}
+.biginputbox textarea {
+    min-width: 450px;
+    min-height: 202px;
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    border: none;
+    margin-bottom: 30px;
+    padding: 20px 20px;  /* 위쪽 여백 포함 */
+    box-sizing: border-box;
+    resize: none;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5; /* 줄 간격을 적당히 설정 */
+}
+
+ .checkbox {
+    display: flex;     /* flex로 만들어야 gap 적용됨 */
+    margin-bottom: 30px;
+      /* 체크박스 사이 간격 */
+}
+.checkbox p{
+    margin-right: 26px;
+}
