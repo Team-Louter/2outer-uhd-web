@@ -12,10 +12,7 @@
     margin-left: 46px;
     color: #FFFFFF;
 }
-.container{
-    margin-top: 67px;
-    margin-left: 293px;
-}
+
  .inputbox input{
     min-width: 450px;
     min-height: 58px;
@@ -24,8 +21,9 @@
     background-color: #EFEFEF;
     border: none; 
     margin-bottom: 30px;
-
+    padding: 0 25px; /* ← 여기에 padding을 줘야 placeholder에 적용됨 */
 }
+
 .biginputbox textarea {
     min-width: 450px;
     min-height: 202px;
@@ -33,13 +31,23 @@
     background-color: #EFEFEF;
     border: none;
     margin-bottom: 30px;
-    padding: 20px 20px;  /* 위쪽 여백 포함 */
+    padding: 20px 25px;  /* 위쪽 여백 포함 */
     box-sizing: border-box;
     resize: none;
     font-family: inherit;
     font-size: 14px;
     line-height: 1.5; /* 줄 간격을 적당히 설정 */
 }
+.align {
+    display: flex;              /* 가로 정렬을 위해 flex 사용 */
+    justify-content: flex-start;
+    align-items: flex-start;    /* 세로 시작점 기준 정렬 */
+    gap: 50px;                  /* 입력폼과 이미지 업로드 사이 여백 */
+    margin-top: 50px;
+    margin-left: 293px;
+}
+
+
 
  .checkbox {
     display: flex;     /* flex로 만들어야 gap 적용됨 */
@@ -49,3 +57,36 @@
 .checkbox p{
     margin-right: 26px;
 }
+.upload-box {
+    border: 2px solid #ccc;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .upload-label {
+    display: block;
+    color: #555;
+  }
+  
+  .upload-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .upload-text {
+    background-color: #66617f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  #preview {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
