@@ -169,13 +169,12 @@ header {
     width: 100%;
     height: 1px;
     background-color: #C0C0C0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .main {
     display: flex;
 }
-
 
 /* 카드 섹션 */
 .card-container {
