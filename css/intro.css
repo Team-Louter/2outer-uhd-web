@@ -43,7 +43,7 @@ header {
 
 .nav a {
     text-decoration: none;
-    color: black;
+    color: #0F0F0F;
     font-weight: 500;
     font-size: 1.5rem;
     transition: color 0.3s ease;
@@ -149,6 +149,7 @@ header {
     justify-content: center;
     margin-left: 70px;
     font-weight: 500;
+    color: #0F0F0F;
 }
 
 .divider {
