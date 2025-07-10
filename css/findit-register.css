@@ -12,7 +12,21 @@
     margin-left: 46px;
     color: #FFFFFF;
 }
-
+.inline{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  margin-top: 67px;
+  margin-left: 293px;
+}
+.upload-box{
+  margin-top: 67px;
+  margin-right: 292px;
+}
+h4{
+  margin-bottom: 8px;
+}
  .inputbox input{
     min-width: 450px;
     min-height: 58px;
@@ -45,6 +59,7 @@
     gap: 50px;                  /* 입력폼과 이미지 업로드 사이 여백 */
     margin-top: 50px;
     margin-left: 293px;
+     align-items: flex-start;  /* ✅ 이미지 박스를 맨 위로 정렬 */
 }
 
 
@@ -57,12 +72,15 @@
 .checkbox p{
     margin-right: 26px;
 }
+
 .upload-box {
     border: 2px solid #ccc;
-    padding: 30px;
+
     width: 300px;
+    height: 200px;
     text-align: center;
     border-radius: 10px;
+    
     cursor: pointer;
   }
   
@@ -75,7 +93,9 @@
     font-size: 48px;
     margin-bottom: 10px;
   }
-  
+  .upload-box p{
+    margin-bottom: 60px
+  }
   .upload-text {
     background-color: #66617f;
     color: white;
@@ -89,4 +109,8 @@
     height: auto;
     border-radius: 10px;
   }
+
+
+
+
   
