@@ -90,6 +90,10 @@ header {
 .register:hover {
     background-color: #2e368c;
 }
+
+#nav-intro {
+    color: #3F48AE;
+}
 /* -------------header------------- */
 
 /* -------------main section 1------------- */

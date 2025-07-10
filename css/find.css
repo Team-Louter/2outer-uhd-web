@@ -8,6 +8,10 @@
 	src: url('../../../packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');
 }
 
+body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
 /* -------------header------------- */
 header {
     display: flex;
