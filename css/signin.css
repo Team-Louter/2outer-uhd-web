@@ -70,7 +70,7 @@ body {
   font-size: 14px;
 }
 
-input[type="text"] {
+#userid{
   width: 410px;
   padding: 12px;
   margin-top: 5px;
@@ -78,7 +78,7 @@ input[type="text"] {
   border-radius: 10px;
   border: 1px solid #ccc;
 }
-input[type="password"] {
+#password{
   width: 410px;
   padding: 12px;
   margin-top: 5px;

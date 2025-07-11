@@ -42,7 +42,7 @@ div {
     color: #666;
     font-size: 14px;
   }
-  .dot .dotactive {
+  .dot .seconddot {
     background: #1d1e64;
   }
   .dot span {
@@ -70,8 +70,7 @@ div {
     margin: 10px 0;
     font-size: 14px;
   }
-  
-  #name{
+  #PWinput{
     width: 430px;
     padding: 12px;
     margin-top: 5px;
@@ -79,12 +78,13 @@ div {
     border-radius: 10px;
     border: 1px solid #ccc;
   }
-  #IDinput{
+   #PWcheckinput{
     width: 430px;
     padding: 12px;
     margin-top: 5px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    margin-bottom: 10px;
   }
   .loginbutton {
     width: 455px;
@@ -99,13 +99,17 @@ div {
     border: 1px solid #ccc;
   }
 
-.doublecheck{
-    width: 65px;
-    height: 20px;
-    border-radius: 20px;
-    font-size: 12px;
-    margin-left: 390px;
-    background-color: #616177;
-    color: white;
+.rightpw {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
     border: none;
+    background-color: white;
+    color: #599A62;
+    margin-left: 290px;
+}
+
+.rightpw:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
