@@ -42,7 +42,7 @@ div {
     color: #666;
     font-size: 14px;
   }
-  .dot .dotactive {
+  .dot .seconddot {
     background: #1d1e64;
   }
   .dot span {
@@ -79,12 +79,13 @@ div {
     border-radius: 10px;
     border: 1px solid #ccc;
   }
-  input[type="password"] {
+  input[type="text"]{
     width: 430px;
     padding: 12px;
     margin-top: 5px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    margin-bottom: 3px;
   }
   .loginbutton {
     width: 455px;
@@ -108,4 +109,20 @@ div {
     background-color: #616177;
     color: white;
     border: none;
+    cursor:pointer;
+}
+.alreadyhave{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    background-color: white;
+    color: #616177;
+    margin-left: 290px;
+    ;
+}
+
+.alreadyhave:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
