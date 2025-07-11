@@ -20,7 +20,7 @@ body {
 
 }
 .advertise {
-  flex-grow: 1;
+  flex: 1;
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ body {
   color: #666;
   font-size: 14px;
 }
-.dot .dotactive {
+.dot .firstdot {
   background: #1d1e64;
 }
 .dot span {
@@ -50,7 +50,7 @@ body {
   height: 8px;
   border-radius: 50%;
   background: #aaa;
-  margin: 0 5px;
+  margin:0 3px;
 }
 
 .reallogin {
@@ -70,16 +70,16 @@ body {
   font-size: 14px;
 }
 
-input[type="text"] {
-  width: 352px;
+#userid{
+  width: 410px;
   padding: 12px;
   margin-top: 5px;
   margin-bottom: 10px;
   border-radius: 10px;
   border: 1px solid #ccc;
 }
-input[type="password"] {
-  width: 352px;
+#password{
+  width: 410px;
   padding: 12px;
   margin-top: 5px;
   border-radius: 10px;

@@ -1,0 +1,115 @@
+
+div {
+    box-sizing:border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  body {
+    margin: 0;
+    background: #e9ebf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+
+  
+  }
+  .advertise {
+    flex-grow: 1;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 40px;
+    text-align: center;
+  }
+  .pin{
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .advertise h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .advertise p {
+    color: #666;
+    font-size: 14px;
+  }
+  .dot .seconddot {
+    background: #1d1e64;
+  }
+  .dot span {
+    display: inline-block; 
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #aaa;
+    margin: 0 3px;
+  }
+  
+  .reallogin {
+    flex-grow: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ulogo {
+    width: 200px;
+    height: 130px;
+    margin: 0 auto 18px;
+  }
+  .saveid {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  #PWinput{
+    width: 430px;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+   #PWcheckinput{
+    width: 430px;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .loginbutton {
+    width: 455px;
+    padding: 14px;
+    background: #1d1e64;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+
+.rightpw {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    background-color: white;
+    color: #599A62;
+    margin-left: 290px;
+}
+
+.rightpw:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
