@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>어디 - 로그인</title>
-  <link rel="stylesheet" href="../css/signupID.css" />
+  <link rel="stylesheet" href="../css/signupschool.css" />
 </head>
 <body>
   <div class="container">
@@ -20,13 +20,16 @@
     </div>
     <div class="reallogin">
       <img src="../assets/uhd-logo 1.png" alt="ULogo" class="ulogo" position="ab"/>
-      <label for="name">성명</label>
-      <input type="text" id="name" placeholder="성명 입력" />
-      <label for="ID">아이디</label>
-      <input type="text" id="IDinput" placeholder="아이디 입력" />
-      <button class="doublecheck">중복확인</button>
-      <button class="loginbutton">다음</button>
-      <button class="alreadyhave">이미 계정이 있으신가요?</button>
+      <label for="shcoolsearch">학교설정</label>
+      <select id="schoolsearch">
+       <option value="ddsw">대덕소프트웨어마이스터고등학교</option>
+        <option value="dgsw">대구소프트웨어마이스터고등학교</option>
+        <option value="gjsw">광주소프트웨어마이스터고등학교</option>
+        <option value="bssw">부산소프트웨어마이스터고등학교</option>
+        <option value="gbsw">경북소프트웨어마이스터고등학교</option>
+      </select>
+      <button class="gonext">다음</button>
+      <button class="back">이전으로</button>
     </div>
   </div>
 </body>
