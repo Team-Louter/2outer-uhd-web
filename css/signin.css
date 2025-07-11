@@ -20,7 +20,7 @@ body {
 
 }
 .advertise {
-  flex-grow: 1;
+  flex: 1;
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ body {
   height: 8px;
   border-radius: 50%;
   background: #aaa;
-  margin: 0 5px;
+  margin:0 3px;
 }
 
 .reallogin {
@@ -71,7 +71,7 @@ body {
 }
 
 input[type="text"] {
-  width: 352px;
+  width: 410px;
   padding: 12px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -79,7 +79,7 @@ input[type="text"] {
   border: 1px solid #ccc;
 }
 input[type="password"] {
-  width: 352px;
+  width: 410px;
   padding: 12px;
   margin-top: 5px;
   border-radius: 10px;
