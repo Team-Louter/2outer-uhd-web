@@ -178,13 +178,14 @@ header {
 
 /* 카드 섹션 */
 .card-container {
-    max-width: 1185px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(100px, auto);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 중앙 정렬 핵심 */
     gap: 16px 18px;
-    margin: 0 120px;
+    max-width: 90%;
+    margin: 0 auto;
 }
+
 
 .post-card {
     width: 237px;
