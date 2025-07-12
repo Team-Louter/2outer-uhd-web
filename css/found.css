@@ -160,10 +160,10 @@ main {
 
 .card-container {
     width: 1002px;
-    display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: minmax(100px, auto);
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px 18px;
+    justify-content: flex-start;
 }
 
 .filter-section {
